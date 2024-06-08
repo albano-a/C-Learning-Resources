@@ -1,1 +1,0 @@
-strnset(string1, 'x', 1);
