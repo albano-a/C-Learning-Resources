@@ -6,6 +6,7 @@
 #define SCALE_FACTOR (5.0f / 9.0f)
 
 int main(){
+
     float fahrenheit, celsius;
     printf("Enter Fahrenheit temperature: ");
     scanf("%f", &fahrenheit);
