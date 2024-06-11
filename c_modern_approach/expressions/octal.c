@@ -19,6 +19,5 @@ int main() {
     printf("O%1d%1d%1d%1d%1d", fifth, fourth_last, third_last, second_last_digit, last_digit);
 
 
-
     return 0;
 }
