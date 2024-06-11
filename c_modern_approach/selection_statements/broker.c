@@ -13,17 +13,17 @@ int main(){
     } else if (value < 6250.00f){
         commission = 56.00f + .0066f * value;
     } else if (value < 20000.00){
-        commission = 76.00 + 0.0034 * value;
+        commission = 76.00f+ 0.0034f* value;
     } else if (value < 50000.00){
-        commission = 100.00 * 0.0022 * value;
+        commission = 100.00f* 0.0022f* value;
     } else if (value < 500000.00f) {
-        commission = 155.00 + 0.0011 * value;
+        commission = 155.00f+ 0.0011f* value;
     } else {
-        commission = 255.00 + 0.0009 * value;
+        commission = 255.00f+ 0.0009f* value;
     }
 
-    if (commission < 39.00) {
-        commission = 39.00;
+    if (commission < 39.00f) {
+        commission = 39.00f;
     }
 
     printf("Commission: $%.2f\n", commission);
