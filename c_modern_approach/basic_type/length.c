@@ -9,7 +9,9 @@ int main(){
 
     printf("Enter a message: ");
     ch = getchar();
-    while (getchar() != '\n'){len++;};
+    while (getchar() != '\n'){
+        len++;
+    };
     printf("Your message was %d character(s) long.\n", len);
 
     return 0;
