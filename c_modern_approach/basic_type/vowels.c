@@ -27,7 +27,7 @@ int main()
                 continue;
         }
     };
-    printf("Your sentence contains %d vowels", vowels);
+    printf("Your sentence contains %d vowels\n", vowels);
     
     return 0;
 }
