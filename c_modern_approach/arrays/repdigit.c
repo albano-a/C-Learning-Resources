@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
     }
 
     if (n > 0) {
-        printf("Repeated digit\n");
+        printf("%ld  Repeated digit\n", n);
     } else {
         printf("No repeated digit\n");
     }
